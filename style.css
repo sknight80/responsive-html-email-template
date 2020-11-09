@@ -1,0 +1,320 @@
+      img {
+        background-image: url("data:image/jpeg;base64,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"); 
+        border: none;
+        -ms-interpolation-mode: bicubic;
+        max-width: 100%; 
+      }
+
+      body {
+        background-color: #f6f6f6;
+        font-family: sans-serif;
+        -webkit-font-smoothing: antialiased;
+        font-size: 20px;
+        line-height: 1.4;
+        margin: 0;
+        padding: 0;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%; 
+      }
+
+      table {
+        border-collapse: separate;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+        width: 100%; }
+        table td {
+          font-family: sans-serif;
+          font-size: 20px;
+          vertical-align: top; 
+      }
+
+      /* -------------------------------------
+          BODY & CONTAINER
+      ------------------------------------- */
+
+      .body {
+        background-color: #f6f6f6;
+        width: 100%; 
+      }
+
+      /* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+      .container {
+        display: block;
+        margin: 0 auto !important;
+        /* makes it centered */
+        max-width: 580px;
+        padding: 10px;
+        width: 580px; 
+      }
+
+      /* This should also be a block element, so that it will fill 100% of the .container */
+      .content {
+        box-sizing: border-box;
+        display: block;
+        margin: 0 auto;
+        max-width: 580px;
+        padding: 10px; 
+      }
+
+      /* -------------------------------------
+          HEADER, FOOTER, MAIN
+      ------------------------------------- */
+      .main {
+        background: #ffffff;
+        border-radius: 3px;
+        width: 100%; 
+      }
+
+      .wrapper {
+        box-sizing: border-box;
+        padding: 20px; 
+      }
+
+      .content-block {
+        padding-bottom: 10px;
+        padding-top: 10px;
+      }
+
+      .footer {
+        clear: both;
+        margin-top: 10px;
+        text-align: center;
+        width: 100%; 
+      }
+        .footer td,
+        .footer p,
+        .footer span,
+        .footer a {
+          color: #999999;
+          font-size: 12px;
+          text-align: center; 
+      }
+
+      /* -------------------------------------
+          TYPOGRAPHY
+      ------------------------------------- */
+      h1,
+      h2,
+      h3,
+      h4 {
+        color: #000000;
+        font-family: sans-serif;
+        font-weight: 400;
+        line-height: 1.4;
+        margin: 0;
+        margin-bottom: 30px; 
+      }
+
+      h1 {
+        font-size: 35px;
+        font-weight: 300;
+        text-align: center;
+        text-transform: capitalize; 
+      }
+
+      p,
+      ul,
+      ol {
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+        margin: 0;
+        margin-bottom: 15px; 
+      }
+        p li,
+        ul li,
+        ol li {
+          list-style-position: inside;
+          margin-left: 5px; 
+      }
+
+      a {
+        color: #3498db;
+        text-decoration: underline; 
+      }
+
+      /* -------------------------------------
+          BUTTONS
+      ------------------------------------- */
+      .btn {
+        box-sizing: border-box;
+        width: 100%; }
+        .btn > tbody > tr > td {
+          padding-bottom: 15px; }
+        .btn table {
+          width: auto; 
+      }
+        .btn table td {
+          background-color: #ffffff;
+          border-radius: 5px;
+          text-align: center; 
+      }
+        .btn a {
+          background-color: #ffffff;
+          border: solid 1px #3498db;
+          border-radius: 5px;
+          box-sizing: border-box;
+          color: #3498db;
+          cursor: pointer;
+          display: inline-block;
+          font-size: 20px;
+          font-weight: bold;
+          margin: 0;
+          padding: 12px 25px;
+          text-decoration: none;
+          text-transform: capitalize; 
+      }
+
+      .btn-primary table td {
+        background-color: #3498db; 
+      }
+
+      .btn-primary a {
+        background-color: #3498db;
+        border-color: #3498db;
+        color: #ffffff; 
+      }
+
+      /* -------------------------------------
+          OTHER STYLES THAT MIGHT BE USEFUL
+      ------------------------------------- */
+      .last {
+        margin-bottom: 0; 
+      }
+
+      .first {
+        margin-top: 0; 
+      }
+
+      .align-center {
+        text-align: center; 
+      }
+
+      .align-right {
+        text-align: right; 
+      }
+
+      .align-left {
+        text-align: left; 
+      }
+
+      .clear {
+        clear: both; 
+      }
+
+      .mt0 {
+        margin-top: 0; 
+      }
+
+      .mb0 {
+        margin-bottom: 0; 
+      }
+
+      .preheader {
+        color: transparent;
+        display: none;
+        height: 0;
+        max-height: 0;
+        max-width: 0;
+        opacity: 0;
+        overflow: hidden;
+        mso-hide: all;
+        visibility: hidden;
+        width: 0; 
+      }
+
+      .powered-by a {
+        text-decoration: none; 
+      }
+
+      hr {
+        border: 0;
+        border-bottom: 1px solid #f6f6f6;
+        margin: 20px 0; 
+      }
+
+      /* -------------------------------------
+          RESPONSIVE AND MOBILE FRIENDLY STYLES
+      ------------------------------------- */
+      @media only screen and (max-width: 620px) {
+        table[class=body] h1 {
+          font-size: 28px !important;
+          margin-bottom: 10px !important; 
+        }
+        table[class=body] p,
+        table[class=body] ul,
+        table[class=body] ol,
+        table[class=body] td,
+        table[class=body] span,
+        table[class=body] a {
+          font-size: 16px !important; 
+        }
+        table[class=body] .wrapper,
+        table[class=body] .article {
+          padding: 10px !important; 
+        }
+        table[class=body] .content {
+          padding: 0 !important; 
+        }
+        table[class=body] .container {
+          padding: 0 !important;
+          width: 100% !important; 
+        }
+        table[class=body] .main {
+          border-left-width: 0 !important;
+          border-radius: 0 !important;
+          border-right-width: 0 !important; 
+        }
+        table[class=body] .btn table {
+          width: 100% !important; 
+        }
+        table[class=body] .btn a {
+          width: 100% !important; 
+        }
+        table[class=body] .img-responsive {
+          height: auto !important;
+          max-width: 100% !important;
+          width: auto !important; 
+        }
+      }
+
+      /* -------------------------------------
+          PRESERVE THESE STYLES IN THE HEAD
+      ------------------------------------- */
+      @media all {
+        .ExternalClass {
+          width: 100%; 
+        }
+        .ExternalClass,
+        .ExternalClass p,
+        .ExternalClass span,
+        .ExternalClass font,
+        .ExternalClass td,
+        .ExternalClass div {
+          line-height: 100%; 
+        }
+        .apple-link a {
+          color: inherit !important;
+          font-family: inherit !important;
+          font-size: inherit !important;
+          font-weight: inherit !important;
+          line-height: inherit !important;
+          text-decoration: none !important; 
+        }
+        #MessageViewBody a {
+          color: inherit;
+          text-decoration: none;
+          font-size: inherit;
+          font-family: inherit;
+          font-weight: inherit;
+          line-height: inherit;
+        }
+        .btn-primary table td:hover {
+          background-color: #3d5f82 !important; 
+        }
+        .btn-primary a:hover {
+          background-color: #41668a !important;
+          border-color: #3f6184 !important; 
+        } 
+      }
+
